@@ -1,0 +1,18 @@
+(footprint "Tooling Hole" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 63C49D4D)
+  (solder_mask_margin 0.148)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a3db2603-1a9d-479e-8636-151ec25dd1c5)
+  )
+  (fp_text value "Tooling Hole" (at 5.334 0 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0e23ae1d-611b-4654-9b36-886c92306d44)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 000218ee-6167-4084-918f-12ea2e512ff5)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers F&B.Cu *.Mask) (tstamp 2ada759e-fe97-4261-8aa1-9d719ef211cd))
+)
