@@ -1,10 +1,15 @@
 # Ignore list for KiCAD Projects
+# Project backups
+usb\ cable\ tester-backups/*
+# Production files
+production/*
 # Temporary files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
 *.sch-bak
+*.kicad_sch-bak
 *~
 _autosave-*
 *.tmp
@@ -16,3 +21,5 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+# Logs
+archive_3d_models.log
